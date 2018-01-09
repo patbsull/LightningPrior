@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>*</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>Prediction</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Known__c</members>
+        <members>Object__c</members>
+        <members>OppPriors__c</members>
+        <members>OpportunityPriors__c</members>
+        <members>Prediction__c</members>
+        <members>Prior__c</members>
+        <members>Suggestion__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Known__c-Known Layout</members>
+        <members>Object__c-Object Layout</members>
+        <members>Prediction__c-Prediction Layout</members>
+        <members>Prior__c-Prior Layout</members>
+        <members>Suggestion__c-Suggestion Layout</members>
+        <name>Layout</name>
+    </types>
+    <version>36.0</version>
+</Package>
