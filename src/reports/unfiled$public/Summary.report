@@ -11,9 +11,6 @@
         <field>Object__c.Known__r.Predictions__r$Probability__c</field>
     </columns>
     <columns>
-        <field>Object__c$CreatedDate</field>
-    </columns>
-    <columns>
         <field>Object__c$LastModifiedDate</field>
     </columns>
     <format>Summary</format>
