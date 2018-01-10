@@ -9,10 +9,6 @@
         <name>AuraDefinitionBundle</name>
     </types>
     <types>
-        <members>Prediction</members>
-        <name>CustomApplication</name>
-    </types>
-    <types>
         <members>Known__c</members>
         <members>Object__c</members>
         <members>OppPriors__c</members>
@@ -23,12 +19,9 @@
         <name>CustomObject</name>
     </types>
     <types>
-        <members>Known__c-Known Layout</members>
-        <members>Object__c-Object Layout</members>
-        <members>Prediction__c-Prediction Layout</members>
-        <members>Prior__c-Prior Layout</members>
-        <members>Suggestion__c-Suggestion Layout</members>
-        <name>Layout</name>
+        <members>unfiled$public</members>
+        <members>unfiled$public/Summary</members>
+        <name>Report</name>
     </types>
     <version>36.0</version>
 </Package>
