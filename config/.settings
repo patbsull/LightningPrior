@@ -1,0 +1,16 @@
+{
+    "projectName": "Bayes",
+    "username": "psullivan+bayes@cloudanswers.com",
+    "id": "0feeb250-f61f-11e7-b282-296090ce63da",
+    "namespace": "",
+    "orgType": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "instanceUrl": "https://test-get-suggest-dev-ed.my.salesforce.com",
+    "workspace": "/Users/patricksullivan/Workspaces",
+    "subscription": [
+        "ApexClass",
+        "AuraDefinitionBundle",
+        "CustomObject",
+        "Report"
+    ]
+}

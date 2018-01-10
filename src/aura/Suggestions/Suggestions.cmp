@@ -1,0 +1,32 @@
+<aura:component implements="force:hasRecordId,flexipage:availableForRecordHome" controller="SuggestionController">
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/> 
+    
+    <aura:attribute name="suggestions" type="List"/>
+    <aura:attribute name="Columns" type="List"/>
+    
+    <div class="slds-page-header slds-page-header--object-home">
+        <lightning:layout >
+            <lightning:layoutItem >
+                <lightning:icon iconName="standard:hierarchy" />
+            </lightning:layoutItem>
+            <lightning:layoutItem class="slds-m-left--small">
+                <p class="slds-text-title--caps slds-line-height--reset">Suggestions</p>
+                <h1 class="slds-page-header__title slds-p-right--x-small">Suggestion Viewer</h1>
+            </lightning:layoutItem>
+        </lightning:layout>
+        
+        <lightning:layout >
+            <lightning:layoutItem >
+                <p class="slds-text-body--small">View Suggestions Based on Field</p>
+            </lightning:layoutItem>
+        </lightning:layout>
+    </div>
+    
+    <lightning:layout >
+        <lightning:layoutItem >
+            <lightning:datatable data="{!v.suggestions}" 
+                                 columns="{!v.Columns}"/> 
+        </lightning:layoutItem>
+    </lightning:layout>
+</aura:component>
